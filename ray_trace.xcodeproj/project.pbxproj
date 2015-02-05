@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FB00486AB0100D96B5E /* thegoddamnedproject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* thegoddamnedproject.1 */; };
+		AF3ADDF7167ACFE400C9F25C /* 3ds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF3ADDE6167ACFE400C9F25C /* 3ds.cpp */; };
+		AF3ADDF8167ACFE400C9F25C /* starter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF3ADDEF167ACFE400C9F25C /* starter.cpp */; };
+		AF3ADDF9167ACFE400C9F25C /* xmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF3ADDF5167ACFE400C9F25C /* xmlParser.cpp */; };
+		AF3ADE0C167AD09A00C9F25C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3ADE0B167AD09A00C9F25C /* OpenGL.framework */; };
+		AF3ADE10167AD0A900C9F25C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3ADE0F167AD0A900C9F25C /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* thegoddamnedproject.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76FB20486AB0100D96B5E /* ray_trace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ray_trace; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3ADDE6167ACFE400C9F25C /* 3ds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3ds.cpp; sourceTree = "<group>"; };
+		AF3ADDE7167ACFE400C9F25C /* 3ds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3ds.h; sourceTree = "<group>"; };
+		AF3ADDE8167ACFE400C9F25C /* atest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atest.xml; sourceTree = "<group>"; };
+		AF3ADDE9167ACFE400C9F25C /* atest0.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atest0.xml; sourceTree = "<group>"; };
+		AF3ADDEA167ACFE400C9F25C /* atest1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atest1.xml; sourceTree = "<group>"; };
+		AF3ADDEB167ACFE400C9F25C /* atest2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atest2.xml; sourceTree = "<group>"; };
+		AF3ADDEC167ACFE400C9F25C /* NormalRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalRenderer.h; sourceTree = "<group>"; };
+		AF3ADDED167ACFE400C9F25C /* RayTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RayTrace.h; sourceTree = "<group>"; };
+		AF3ADDEE167ACFE400C9F25C /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		AF3ADDEF167ACFE400C9F25C /* starter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = starter.cpp; sourceTree = "<group>"; };
+		AF3ADDF0167ACFE400C9F25C /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		AF3ADDF1167ACFE400C9F25C /* test1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test1.xml; sourceTree = "<group>"; };
+		AF3ADDF2167ACFE400C9F25C /* test2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test2.xml; sourceTree = "<group>"; };
+		AF3ADDF3167ACFE400C9F25C /* test3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test3.xml; sourceTree = "<group>"; };
+		AF3ADDF4167ACFE400C9F25C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		AF3ADDF5167ACFE400C9F25C /* xmlParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlParser.cpp; sourceTree = "<group>"; };
+		AF3ADDF6167ACFE400C9F25C /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlParser.h; sourceTree = "<group>"; };
+		AF3ADE0B167AD09A00C9F25C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		AF3ADE0F167AD0A900C9F25C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		AF3ADE18167AD14700C9F25C /* objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = objects; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* thegoddamnedproject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = thegoddamnedproject.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3ADE0C167AD09A00C9F25C /* OpenGL.framework in Frameworks */,
+				AF3ADE10167AD0A900C9F25C /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* thegoddamnedproject */ = {
+			isa = PBXGroup;
+			children = (
+				AF3ADE18167AD14700C9F25C /* objects */,
+				AF3ADE0F167AD0A900C9F25C /* GLUT.framework */,
+				AF3ADE0B167AD09A00C9F25C /* OpenGL.framework */,
+				AF3ADDE6167ACFE400C9F25C /* 3ds.cpp */,
+				AF3ADDE7167ACFE400C9F25C /* 3ds.h */,
+				AF3ADDE8167ACFE400C9F25C /* atest.xml */,
+				AF3ADDE9167ACFE400C9F25C /* atest0.xml */,
+				AF3ADDEA167ACFE400C9F25C /* atest1.xml */,
+				AF3ADDEB167ACFE400C9F25C /* atest2.xml */,
+				AF3ADDEC167ACFE400C9F25C /* NormalRenderer.h */,
+				AF3ADDED167ACFE400C9F25C /* RayTrace.h */,
+				AF3ADDEE167ACFE400C9F25C /* Scene.h */,
+				AF3ADDEF167ACFE400C9F25C /* starter.cpp */,
+				AF3ADDF0167ACFE400C9F25C /* test.xml */,
+				AF3ADDF1167ACFE400C9F25C /* test1.xml */,
+				AF3ADDF2167ACFE400C9F25C /* test2.xml */,
+				AF3ADDF3167ACFE400C9F25C /* test3.xml */,
+				AF3ADDF4167ACFE400C9F25C /* Utils.h */,
+				AF3ADDF5167ACFE400C9F25C /* xmlParser.cpp */,
+				AF3ADDF6167ACFE400C9F25C /* xmlParser.h */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = thegoddamnedproject;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* ray_trace */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* thegoddamnedproject.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* ray_trace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "ray_trace" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ray_trace;
+			productInstallPath = "$(HOME)/bin";
+			productName = thegoddamnedproject;
+			productReference = 8DD76FB20486AB0100D96B5E /* ray_trace */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "ray_trace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* thegoddamnedproject */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* ray_trace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3ADDF7167ACFE400C9F25C /* 3ds.cpp in Sources */,
+				AF3ADDF8167ACFE400C9F25C /* starter.cpp in Sources */,
+				AF3ADDF9167ACFE400C9F25C /* xmlParser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ray_trace;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = ray_trace;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "ray_trace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "ray_trace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
